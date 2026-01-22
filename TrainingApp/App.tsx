@@ -2,15 +2,24 @@ import React from 'react';
 import { View, Button, Alert, StyleSheet } from 'react-native';
 
 const App = () => {
-  // Function for Step 3
   const handleHello = () => {
     Alert.alert("xin chào");
   };
 
+  // Function for Step 6
+  const handleGoodbye = () => {
+    Alert.alert("tạm biệt");
+  };
+
   return (
     <View style={styles.container}>
-       {/* Button for Step 3 */}
       <Button title="Show Hello" onPress={handleHello} />
+
+      {/* Spacer */}
+      <View style={{ height: 20 }} />
+
+      {/* Button for Step 6 */}
+      <Button title="Show Goodbye" onPress={handleGoodbye} />
     </View>
   );
 };
