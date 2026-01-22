@@ -2,7 +2,6 @@ export const calculate = (sign, arg1, arg2) => {
   switch (sign) {
     case 'PLUS':
       return arg1 + arg2;
-      return 0;
 
     case 'MINUS':
       return 0;
