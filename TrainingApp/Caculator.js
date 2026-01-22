@@ -7,7 +7,7 @@ export const calculate = (sign, arg1, arg2) => {
       return 0;
 
     case 'MULTIPLY':
-      return 0;
+      return arg1*arg2;
 
     case 'DIVIDE':
       return 0;
