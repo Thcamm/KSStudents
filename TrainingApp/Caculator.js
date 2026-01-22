@@ -4,7 +4,7 @@ export const calculate = (sign, arg1, arg2) => {
       return arg1 + arg2;
 
     case 'MINUS':
-      return 0;
+      return arg1-arg2;
 
     case 'MULTIPLY':
       return 0;
