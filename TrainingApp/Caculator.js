@@ -10,7 +10,8 @@ export const calculate = (sign, arg1, arg2) => {
       return 0;
 
     case 'DIVIDE':
-      return 0;
+      if (arg2 === 0) return 0;
+      return arg1 / arg2;
 
     default:
       return 0;
